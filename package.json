@@ -1,0 +1,22 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comp:fun": "tsc -w src/fundamental.ts",
+    "exe:fun": "tsx watch src/fundamental.ts",
+    "comp:func": "tsc -w src/function.ts",
+    "exe:func": "tsx watch src/function.ts",
+    "comp:obj": "tsc -w src/object.ts",
+    "exe:obj": "tsx watch src/object.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
