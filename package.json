@@ -9,7 +9,10 @@
     "comp:func": "tsc -w src/function.ts",
     "exe:func": "tsx watch src/function.ts",
     "comp:obj": "tsc -w src/object.ts",
-    "exe:obj": "tsx watch src/object.ts"
+    "exe:obj": "tsx watch src/object.ts",
+    "comp:type": "tsc -w src/type-guard.ts",
+    "exe:type": "tsx watch src/type-guard.ts",
+    "dev": "tsc -w"
   },
   "keywords": [],
   "author": "",

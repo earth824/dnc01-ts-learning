@@ -149,9 +149,31 @@ console.log('OBJECT');
 // logLength(a);
 
 // FUNCTION PARAMETER DESTRUCTURING
-type Product = {
-  name: string;
-  price: number;
-  discount?: number;
-};
-function logSomething({ name, price, discount = 0 }: Product) {}
+// type Product = {
+//   name: string;
+//   price: number;
+//   discount?: number;
+// };
+// function logSomething({ name, price, discount = 0 }: Product) {}
+
+// INDEX SIGNATURE
+// type AnonyMous = {
+//   [key: string]: number;
+// };
+
+// const friendScore: AnonyMous = {
+//   john: 9,
+//   jame: 8
+// };
+
+// friendScore.ann = 5;
+// friendScore.jack = 7;
+// friendScore.ben = 'ten';
+
+// UTILITY TYPE
+// const friendScore: Record<string, number> = {
+//   john: 9,
+//   jame: 8
+// };
+// friendScore.ann = 5;
+// friendScore.ben = 'ten';
