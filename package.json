@@ -12,6 +12,7 @@
     "exe:obj": "tsx watch src/object.ts",
     "comp:type": "tsc -w src/type-guard.ts",
     "exe:type": "tsx watch src/type-guard.ts",
+    "exe:class": "tsx watch src/class.ts",
     "dev": "tsc -w"
   },
   "keywords": [],
